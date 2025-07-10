@@ -1,0 +1,324 @@
+html {
+ font-family: "Cormorant", serif;
+}
+body {
+background-image:url("../icon/traced-arf-back.png")
+}
+.background-image {
+}
+.sticky-header {
+  display: flex;
+  width:100%;
+  background-color: #c3eaf9;
+}
+.logo {
+  display: flex; 
+  padding: 0;
+  margin: 0 2 0;
+}
+.nav-bar {
+  display: flex !important;
+  box-shadow: var(--shadow-elevation-1) !important;
+  -webkit-box-align: stretch !important;
+  align-items: stretch !important;
+  flex-wrap: nowrap !important;
+  height: 99px !important;
+  flex-direction: row;
+  width: 1669px;
+}
+.mental-illness {
+  display: flex;
+  background-color: #C3FAE5;
+  margin: 1.5em 1em 1em 1.5em;
+  height: 57px;
+  justify-content:space-evenly;
+  color: black;
+}
+.mental-illness a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+.art-icons {
+  display: flex;
+  position:relative;
+  align-items:center;
+  width:98%;
+  margin: 1.5em 1em 1em 1.5em;
+ }
+.muse {
+  margin: 0em 0em 0em 5.5em;
+  width: 80%;
+  height:30%;
+  display: flex;
+}
+.word {
+  margin: 0em 0em 0em 5.5em;
+  width: 70%;
+  height:30%;
+  display: flex;
+  }
+.arf {
+  margin: 0em 0em 0em 5.5em;
+  width: 70%;
+  height:30%;
+  display: flex;
+  }
+  .mucus {
+  float: left;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  }
+.word-soup {
+  float: left;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  }
+.digi {
+  float: left;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  }
+  .prem {
+  float: left;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  }
+.mucus .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align: center;
+  }
+.mucus:hover .dropdown-content-1 {
+  display: block;
+  }
+.prem:hover .drop2 {
+  display: block;
+  }
+.navbar a:hover, .mucus:hover .dropbtn {
+  background-color: blue;
+}
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 0em 0em 0em 0em;
+  z-index: 1;
+}
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 0em 0em 0 0em;
+  z-index: 1;
+  }
+  .drop2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: -2.65em 0em -7em 11em;
+  z-index: 1;
+  }
+  .dropdown-content-3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 0em 0em 0 1em;
+  z-index: 1;
+  }
+.dropdown-content-1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content-1 a:hover {
+  background-color: #ddd;
+} 
+.dropdown-content-2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.drop2 a {
+  float: none;
+  color: black;
+  padding: 12px 45px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+}
+.dropdown-content-2 a:hover {
+  background-color: #ddd;
+  }
+  .drop2 a:hover {
+  background-color: #ddd;
+  }
+  .dropdown-content-3 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+}
+
+.dropdown-content-3 a:hover {
+  background-color: #ddd;
+  }
+.word-soup .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  }
+.digi .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  }
+.word-soup:hover .dropdown-content-2 {
+  display: block;
+  }
+.navbar a:hover, .word-soup:hover .dropbtn {
+  background-color: blue;
+}
+.digi:hover .dropdown-content-3 {
+  display: block;
+  }
+.navbar a:hover, .digi:hover .dropbtn {
+  background-color: blue;
+  }
+  .navbar a:hover, .prem:hover .dropbtn2 {
+  background-color: #ddd;
+  }
+  .dropbtn2 {
+   font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 45px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  }
+.soul {
+margin: 0 0 0 4em;
+}
+.title {
+  position: absolute;
+  left: 834.5px;
+  color: black;
+  font-size: 30px;
+ font-family: "Cormorant", serif;
+  text-align: center;
+ }
+ 
+.socials {
+  margin: auto;
+  right: 0;
+  width: 300px !important;
+  display: flex;
+  justify-content: flex-end;
+ }
+ 
+.outer {
+  height: 52px;
+ }
+ 
+figcaption {
+  text-align: center;
+ font-family: "Cormorant", serif;
+ }
+.covers {
+width: 352px;
+height:333px;
+margin: 1em 0em 0em 0em;
+object-position: center;
+display: flex;
+outline: 7px solid;
+outline-color: #A89529;
+}
+
+.row-1 {
+width: 634px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.row-2 {
+width: 634px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.row-3 {
+width: 634px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.titles {
+font-family: "Cormorant", serif;
+text-align: center;
+color: black;
+background-color: #A89529;
+}
+.top {
+display: flex;
+justify-content:center;
+}
+.bott {
+display: flex;
+justify-content: space-evenly;
+}
+.row-4 {
+width: 634px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.row-5 {
+width: 634px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}

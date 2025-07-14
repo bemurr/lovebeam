@@ -275,7 +275,7 @@ justify-content: center;
  }
  .intro {
   display: flex;
-  margin: 1.5em 6em 0;
+  margin: .75em 6em 0;
  }
  .beam {
   position: relative;
@@ -324,6 +324,33 @@ justify-content: center;
   object-fit: scale-down;
   object-position: left;
 } 
+.merch {
+   height: 400px;
+  width: 556px;
+  flex-direction: column;
+  }
+    .store-top {
+position: relative;
+  display: flex ;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  flex-direction: row;
+  justify-content: flex-start;
+  object-fit: scale-down;
+  object-position: left;
+  }
+.store-bottom {
+position: relative;
+  display: flex ;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  flex-direction: row;
+  justify-content: flex-start;
+  object-fit: scale-down;
+  object-position: left;
+  }
 .player {
   height: 48px;
   visibility: visible;

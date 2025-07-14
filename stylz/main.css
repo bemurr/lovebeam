@@ -328,9 +328,9 @@ justify-content: center;
    height: 400px;
   width: 556px;
   flex-direction: column;
-  }
-    .store-top {
-position: relative;
+ }
+.store-top {
+  position: relative;
   display: flex ;
   border: 2px solid black;
   height: 400px;
@@ -341,7 +341,7 @@ position: relative;
   object-position: left;
   }
 .store-bottom {
-position: relative;
+  position: relative;
   display: flex ;
   border: 2px solid black;
   height: 400px;

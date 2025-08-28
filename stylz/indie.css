@@ -1,5 +1,5 @@
 html {
-font-family: Special Elite;
+ font-family: "Cormorant", serif;
 }
 body {
 background-image:url("../mental/illness/edits/IMG_4049.jpg");
@@ -8,11 +8,12 @@ background-repeat: no-repeat;
 background-position: top 46% left 20%;
 }
 .titles {
-font-family: Special Elite;
+font-family: "Cormorant", serif;
 font-style: italic;
 font-size: 20px;
 margin: .5em;
 text-align: left;
+color:#c73133
 }
 .tracks-col-1 {
  display: flex;
@@ -28,6 +29,7 @@ flex-direction: column;
 
 .heading {
 margin: 0 0 0 0;
+color:#c73133
 }
 .sticky-header {
   display: flex;
@@ -59,7 +61,7 @@ margin: 0 0 0 0;
 }
 .mental-illness a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -115,7 +117,7 @@ margin: 0 0 0 0;
   text-align: center;
   }
 .mucus .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -140,7 +142,7 @@ margin: 0 0 0 0;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: .1em 0em 0 0em;
+  margin: 0em 0em 0em 0em;
   z-index: 1;
 }
 .dropdown-content-2 {
@@ -149,7 +151,7 @@ margin: 0 0 0 0;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: .1em 0em 0 0em;
+  margin: 0em 0em 0 0em;
   z-index: 1;
   }
   .drop2 {
@@ -167,7 +169,7 @@ margin: 0 0 0 0;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: .1em 0em 0 1em;
+  margin: 0em 0em 0 1em;
   z-index: 1;
   }
 .dropdown-content-1 a {
@@ -219,7 +221,7 @@ margin: 0 0 0 0;
   background-color: #ddd;
   }
 .word-soup .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -229,7 +231,7 @@ margin: 0 0 0 0;
   margin: 0;
   }
 .digi .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -254,7 +256,7 @@ margin: 0 0 0 0;
   background-color: #ddd;
   }
   .dropbtn2 {
-   font-size: 16px;  
+   font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -270,8 +272,8 @@ margin: 0 0 0 4em;
   position: absolute;
   left: 834.5px;
   color: black;
-  font-size: 24px;
-  font-family: Special Elite;
+  font-size: 30px;
+ font-family: "Cormorant", serif;
   text-align: center;
  }
  
@@ -289,7 +291,8 @@ margin: 0 0 0 4em;
  
 figcaption {
   text-align: center;
-  font-family: Special Elite;
+ font-family: "Cormorant", serif;
+ }
  }
  .intro {
   display: flex;
@@ -300,7 +303,7 @@ figcaption {
   display: flex ;
   color: black;
   font-size: 24px;
-  font-family: Special Elite;
+  font-family: "Cormorant", serif;
   border: 2px solid black;
   height: 400px;
   width: 556px;
@@ -314,7 +317,7 @@ figcaption {
   display: flex ;
   color: black;
   font-size: 24px;
-  font-family: Special Elite;
+  font-family: "Cormorant", serif;
   border: 2px solid black;
   height: 400px;
   width: 556px;
@@ -326,7 +329,7 @@ figcaption {
   background-color: white;
 }
 .bio {
-  font-family: Special Elite;
+  font-family: "Cormorant", serif;
   font-size: 36px;
   text-decoration: underline;
   padding: 4px;

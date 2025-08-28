@@ -1,5 +1,5 @@
 html {
-font-family: Special Elite;
+font-family: "Cormorant", serif;
 }
 body {
 background-image:url("../mental/illness/covers/nostalgia.jpg");
@@ -8,7 +8,7 @@ background-repeat: no-repeat;
 background-position: top 25% left 10%;
 }
 .titles {
-font-family: Special Elite;
+font-family: "Cormorant", serif;
 font-style: italic;
 font-size: 20px;
 margin: .5em;
@@ -52,7 +52,7 @@ margin: 3.25em 0 0;
 }
 .mental-illness a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -108,7 +108,7 @@ margin: 3.25em 0 0;
   text-align: center;
   }
 .mucus .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -212,7 +212,7 @@ margin: 3.25em 0 0;
   background-color: #ddd;
   }
 .word-soup .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -222,7 +222,7 @@ margin: 3.25em 0 0;
   margin: 0;
   }
 .digi .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -247,7 +247,7 @@ margin: 3.25em 0 0;
   background-color: #ddd;
   }
   .dropbtn2 {
-   font-size: 16px;  
+   font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -264,8 +264,9 @@ margin: 0 0 0 4em;
   left: 834.5px;
   color: black;
   font-size: 24px;
-  font-family: Special Elite;
+  font-family: "Cormorant", serif;
   text-align: center;
+  
  }
  
 .socials {
@@ -282,5 +283,11 @@ margin: 0 0 0 4em;
  
 figcaption {
   text-align: center;
-  font-family: Special Elite;
+  font-family: "Cormorant", serif;
  }
+.titles{
+color:#c73133
+}
+.heading {
+color:#c73133
+}

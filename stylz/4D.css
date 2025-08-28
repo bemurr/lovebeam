@@ -1,8 +1,5 @@
 html {
-font-family: Special Elite;
-}
-body {
-background-image:url()
+ font-family: "Cormorant", serif;
 }
 .sticky-header {
   display: flex;
@@ -34,7 +31,7 @@ background-image:url()
 }
 .mental-illness a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -90,7 +87,7 @@ background-image:url()
   text-align: center;
   }
 .mucus .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -115,7 +112,7 @@ background-image:url()
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: .1em 0em 0 0em;
+  margin: 0em 0em 0em 0em;
   z-index: 1;
 }
 .dropdown-content-2 {
@@ -124,7 +121,7 @@ background-image:url()
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: .1em 0em 0 0em;
+  margin: 0em 0em 0 0em;
   z-index: 1;
   }
   .drop2 {
@@ -142,7 +139,7 @@ background-image:url()
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: .1em 0em 0 1em;
+  margin: 0em 0em 0 1em;
   z-index: 1;
   }
 .dropdown-content-1 a {
@@ -194,7 +191,7 @@ background-image:url()
   background-color: #ddd;
   }
 .word-soup .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -204,7 +201,7 @@ background-image:url()
   margin: 0;
   }
 .digi .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -229,7 +226,7 @@ background-image:url()
   background-color: #ddd;
   }
   .dropbtn2 {
-   font-size: 16px;  
+   font-size: 20px;  
   border: none;
   outline: none;
   color: black;
@@ -245,8 +242,8 @@ margin: 0 0 0 4em;
   position: absolute;
   left: 834.5px;
   color: black;
-  font-size: 24px;
-  font-family: Special Elite;
+  font-size: 30px;
+ font-family: "Cormorant", serif;
   text-align: center;
  }
  
@@ -264,8 +261,8 @@ margin: 0 0 0 4em;
  
 figcaption {
   text-align: center;
-  font-family: Special Elite;
-}
+ font-family: "Cormorant", serif;
+ }
 .row1 {
 display: flex;
 margin: 2.5em 0 0 0;

@@ -269,6 +269,7 @@ font-family: "Cormorant", serif;
 font-style: italic;
 font-size: 20px;
 margin: .5em;
+ color: #c73133;
 }
 .tracks-col-1 {
  flex-direction: column;
@@ -283,11 +284,6 @@ margin: 6.25em 0 0 -10em;
  flex-direction: column;
  display: flex;
  }
- .background {
-background-image:url("../mental/illness/covers/cs.jpg");
-background-size: 100%;
-background-repeat: no-repeat;
-background-position: top 25% left 10%;
 }
 .tracklist {
 display: flex;
@@ -297,4 +293,5 @@ margin: 0 0 0 2em;
 display: flex;
 width: 500px;
 height: 100px;
+color: #c73133;
 }

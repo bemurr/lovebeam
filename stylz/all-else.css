@@ -280,6 +280,7 @@ font-style: italic;
 font-size: 20px;
 margin: .5em;
 text-align: left;
+ color: #c73133;
 }
 .tracks-col-1 {
  flex-direction: column;
@@ -301,4 +302,5 @@ flex-direction: column;
 
 .heading {
 margin: .5em 0 0 0;
+ color: #c73133;
 }

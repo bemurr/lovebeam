@@ -2,6 +2,12 @@ html {
  margin: auto;
  font-family: "Cormorant", serif;
 }
+.body {
+ background-image:url("../mental/illness/covers/cs.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: top 25% left 10%;
+}
 .sticky-header {
   display: flex;
   width:100%;
@@ -283,7 +289,6 @@ margin: .5em;
 margin: 6.25em 0 0 -10em;
  flex-direction: column;
  display: flex;
- }
 }
 .tracklist {
 display: flex;

@@ -306,7 +306,7 @@ justify-content:center;
 }
 .bott {
 display: flex;
-justify-content: space-evenly;
+    justify-content: center;
 }
 .row-4 {
 width: 634px;

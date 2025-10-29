@@ -11,6 +11,7 @@ background-size:cover;
      background-color: #c3eaf9;
     display: flex;
     width: -webkit-fill-available;
+    width: auto;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;

@@ -13,7 +13,7 @@ font-style: italic;
 font-size: 20px;
 margin: .5em;
 text-align: left;
-color:#c73133
+  color: #c73133;
 }
 .tracks-col-1 {
  display: flex;
@@ -29,12 +29,17 @@ flex-direction: column;
 
 .heading {
 margin: 0 0 0 0;
-color:#c73133
+ color:  color: #c73133;
 }
 .sticky-header {
-  display: flex;
-  width:100%;
-  background-color: #c3eaf9;
+     background-color: #c3eaf9;
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    max-height: 7.25em;
 }
 .logo {
   display: flex; 
@@ -68,28 +73,22 @@ color:#c73133
   text-decoration: none;
   }
 .art-icons {
-  display: flex;
-  position:relative;
-  align-items:center;
-  width:98%;
-  margin: 1.5em 1em 1em 1.5em;
+    display: flex;
+    position: relative;
+    margin: 1em 1em 1em 2.5em;
+   max-height: 6.5vh;
+    max-width: 25.4vw;
  }
 .muse {
-  margin: 0em 0em 0em 5.5em;
   width: 80%;
-  height:30%;
   display: flex;
 }
 .word {
-  margin: 0em 0em 0em 5.5em;
   width: 70%;
-  height:30%;
   display: flex;
   }
 .arf {
-  margin: 0em 0em 0em 5.5em;
   width: 70%;
-  height:30%;
   display: flex;
   }
   .mucus {
@@ -269,12 +268,16 @@ color:#c73133
 margin: 0 0 0 4em;
 }
 .title {
-  position: absolute;
-  left: 834.5px;
-  color: black;
-  font-size: 30px;
- font-family: "Cormorant", serif;
-  text-align: center;
+      position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: "Cormorant", serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-wrap-mode: nowrap;
+    padding: 0 0 0 24px;
  }
  
 .socials {
@@ -292,7 +295,6 @@ margin: 0 0 0 4em;
 figcaption {
   text-align: center;
  font-family: "Cormorant", serif;
- }
  }
  .intro {
   display: flex;

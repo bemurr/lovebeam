@@ -1,11 +1,6 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-    <script type="text/javascript">
-  // Basic detection using screen width
-  if (screen.width <= 768) {
- window.location = "https://www.m.lovebeam.art";
-  }</script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>4D~</title>
@@ -16,7 +11,6 @@
   </head>
     <header>
   <div class="sticky-header">
-  <nav class=nav-bar style="height: 7rem;">
  <a class="home" href="../../../index.html"> 
  <img class="logo" src="../../../icon/hoem.png" alt="Home Button: A capital B with a tilde (a wave looking symbol)" />
   </a>
@@ -28,7 +22,7 @@
     </button>
     <div class="dropdown-content-1">
       <a href="../../mucus/cs/cs.html">Crushed & Shattered</a>
-      <a href="../../mucus/nostalgia/nostalgia.html">Nostalgia Hurts</a>
+       <a href="../../mucus/hf/hf.html">Hallowfest</a>
        <a href="../../mucus/else/all-else.html">Rest of Disc</a>
       <a href="../../mucus/features/features.html">Features</a>
       <a href="../../mucus/indie/indie.html">Indie</a>
@@ -92,7 +86,6 @@
 </article>
 </div>
 </div>
-</nav>
   <div class="socials">
   <figure class="linktree">
   <a href="https://linktr.ee/bemurr"> <img class=outer src="../../../icon/linktree.svg" alt= "A grey cartoon tree, with a disconnect between the leaves and the stump" />
@@ -122,4 +115,26 @@
  <video class="360" height="360" width="640" controls>
  <source src="Edit.mov" type="video/mp4" />
  </video>
+ </figure>
+ <figure class="row3">
+ <div id="ytplayer"></div>
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'DqrAm7ZJMVY'
+    });
+  }
+</script>
 </main>

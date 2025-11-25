@@ -284,6 +284,7 @@ font-size: 20px;
 margin: .5em;
 text-align: left;
  color: #c73133;
+ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .tracks-col-1 {
  flex-direction: column;
@@ -306,4 +307,5 @@ flex-direction: column;
 .heading {
 margin: .5em 0 0 0;
  color: #c73133;
+ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }

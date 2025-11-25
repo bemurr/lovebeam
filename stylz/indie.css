@@ -14,6 +14,7 @@ font-size: 20px;
 margin: .5em;
 text-align: left;
   color: #c73133;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .tracks-col-1 {
  display: flex;
@@ -29,7 +30,8 @@ flex-direction: column;
 
 .heading {
 margin: 0 0 0 0;
- color:  color: #c73133;
+ color: #c73133;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .sticky-header {
      background-color: #c3eaf9;

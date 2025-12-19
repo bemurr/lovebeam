@@ -102,6 +102,8 @@ background-size:cover;
   font-family: inherit;
   margin: 0;
   text-align: center;
+   background: inherit url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='44' height='44' xmlns='http://www.w3.org/2000/svg'><g><path d='M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0 l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z'></path> fill='black'/></g></svg>") no-repeat;
+  background-position: right 5px top 50%;
   }
 .mucus:hover .dropdown-content-1 {
   display: block;
@@ -109,7 +111,7 @@ background-size:cover;
 .prem:hover .drop2 {
   display: block;
   }
-.navbar a:hover, .mucus:hover .dropbtn {
+.navbar a:hover, .mucus:hover .dropbtn  {
   background-color: blue;
 }
 .dropdown-content-1 {

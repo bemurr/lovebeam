@@ -252,6 +252,7 @@ margin: 0 0 0 4em;
     flex-direction: row;
     text-wrap-mode: nowrap;
     padding: 0 0 0 24px;
+ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
  }
  
 .socials {

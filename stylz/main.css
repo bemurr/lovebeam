@@ -282,7 +282,7 @@ figcaption {
  }
  .intro {
   display: flex;
-  margin: .75em 6em 0;
+  margin: -1em 6em 0;
   justify-content: center;
   scale: 92%;
  }
